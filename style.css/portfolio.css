@@ -15,7 +15,7 @@
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings:"wdth" 100;
+  font-variation-settings: 100;
 }
 nav {
     display: flex;
@@ -43,4 +43,37 @@ nav ul li a {
 }
 .dark-2{
     color: #474747;
+}
+
+/* header */
+
+.header-1 {
+    background-image: url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
+}
+
+/* Banner styles */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0  200px ;
+}
+
+.banner-greetings{
+ font-size:  45px;
+ font-weight: 600;
+
+}
+.banner-title {
+    font-size: 70px;
+    font-weight: 800;
+    margin: 10px 0;
+}
+.banner-pic-1 {
+    width: 500px;
+
+}
+.banner-discription {
+   max-width: 580 px;
 }
