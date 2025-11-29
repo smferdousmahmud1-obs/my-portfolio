@@ -1,0 +1,46 @@
+.btn-primary {
+    background-color: #ff6347;
+    font-weight: 700 ;
+
+    border: none;
+    padding: 18px 35px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+/* Nav styles  */
+.open-sans-nav {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.nav-title {
+    flex-grow: 1;
+    font-weight: 800;
+    font-size: 45px;
+}
+.mary {
+    color: #ff6347;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+.dark-2{
+    color: #474747;
+}
