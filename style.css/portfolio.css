@@ -1,3 +1,4 @@
+/* Shared style */
 .btn-primary {
     background-color: #ff6347;
     font-weight: 700 ;
@@ -7,6 +8,9 @@
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
+}
+.secondary-background {
+    background-color: #FFF8F3;
 }
 
 
@@ -55,7 +59,7 @@ nav ul li a {
 
 /* Banner styles */
 .banner {
-    display: flex;
+    display: flex; ;
     justify-content: space-between;
     margin: 0 35px 0  200px ;
 }
@@ -74,6 +78,35 @@ nav ul li a {
     width: 500px;
 
 }
-.banner-discription {
+.banner-dis{
    max-width: 580 px;
+}
+
+/* about section */
+.section-title {
+ font-size: 35 px;
+ font-weight: bold;
+ color: #181818;
+
+}
+.section-dis{
+    font-size: 18px;
+    color: #757575;
+
+}
+.about-item{
+    text-align: center;
+
+}
+/* about style */
+.about{
+border-radius: 10 px;
+
+}
+/* main styles */
+
+main {
+    max-width: 1140 px;
+    margin: 0 auto;
+
 }
